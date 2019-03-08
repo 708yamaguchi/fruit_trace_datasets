@@ -30,3 +30,13 @@ fruit_trace_datasets
       eigen-decompose-ret
       ))
   ```
+
+- Visualization of fruit classification
+  - type `./classify_fruit.py` and classification result below is visualized.
+  - PCA is used for feature extraction.
+    - Feature value is three principal components of 3D point cloud (`PCA`).
+  - classification is based on `k-nearest neighbor`.
+    - In `Leave One Out` method, the best score is achieved when `k=7`.
+
+
+![classification_visualization](classification.png)
